@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"author": "Reza Shami Tanha"
+	},
+	"visitor": "Visitor",
+    "visitors":"Visitors",
+    "no-visit":"No visitors yet.",
+    "no-valid-page-id":"Unable to get page ID."
+}

@@ -1,0 +1,24 @@
+{
+    "name": "UserVisitLogger",
+    "version": "1.0.0",
+    "author": "Reza Shami Tanha",
+    "description": "Logs users who visit a page and optionally displays them.",
+    "type": "extension",
+    "MessagesDirs": {
+		"UserVisitLogger": [
+			"i18n"
+		]
+	},
+    "Hooks": {
+        "BeforePageDisplay": "UserVisitLogger::onBeforePageDisplay",
+        "SkinAfterContent": "UserVisitLogger::onSkinAfterContent",
+        "LoadExtensionSchemaUpdates": "UserVisitLogger::onLoadExtensionSchemaUpdates"
+    },
+    "AutoloadClasses": {
+        "UserVisitLogger": "/includes/UserVisitLogger.class.php"
+    },
+    "ExtensionMessagesFiles": {
+		"UserVisitLoggerMagic": "UserVisitLogger.i18n.php"
+	},
+    "manifest_version": 1
+}

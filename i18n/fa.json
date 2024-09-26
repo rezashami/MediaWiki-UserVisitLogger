@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+		"author": "Reza Shami Tanha"
+	},
+	"visitor": "مشاهده‌گر",
+    "visitors":"مشاهده‌گران",
+    "no-visit":"هیچ مشاهده‌گری وجود ندارد.",
+    "no-valid-page-id":"دسترسی به این صفحه امکان‌پذیر نیست."
+}
