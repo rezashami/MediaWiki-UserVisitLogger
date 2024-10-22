@@ -5,7 +5,7 @@ class UserVisitLogger
 {
     public static function onLoadExtensionSchemaUpdates(DatabaseUpdater $updater)
     {
-        $updater->addExtensionTable('user_visit_log', __DIR__ . '/sql/UserVisitLogger.sql');
+        $updater->addExtensionTable('user_visit_log', dirname(__DIR__, 1) . '/sql/UserVisitLogger.sql');
     }
     /**
      * Hook: BeforePageDisplay
